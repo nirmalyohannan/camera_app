@@ -2,6 +2,8 @@
 
 Camera App built using Flutter.
 
+**_ The App has been installed and tested only in Android and might not work in iOS _**
+
 #### Concepts in this code:
 
 - Requesting Permissions(Camera, Storage)
