@@ -96,7 +96,7 @@ class _CameraScreenState extends State<CameraScreen> {
                         try {
                           image = await controllerCamera.takePicture();
 
-                          saveImage(image!);
+                          await saveImage(image!);
 
                           setState(() {}); //reloads the page
                         } catch (e) {
